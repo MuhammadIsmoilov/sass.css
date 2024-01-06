@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(main-screen__bgc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+.surat img{
+    width: 100%;
+}
+
+
+.href{
+    margin-left:400px;
+}
+.href a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+    bottom: 730px;
+    margin-left: 20px;
+   
+}
+.href input{
+    width: 130px;
+    height: 35px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 730px;
+    margin-left: 200px;
+    
+}
+.href input{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    color: white;
+}
+.kurs h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 550px;
+    margin-left: 270px;
+}
+.numbers{
+   display: flex;
+   gap: 2em;
+   position: relative;
+   bottom: 470px;
+   margin-left: 270px;
+}
+.number1{
+    width: 90px;
+    border: 3px solid black;
+    text-align: center;
+    background: #121212;
+    padding: 7px;
+    color: white;
+}
+.number2,.number3, .number4{
+ @extend .number1
+}
+
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 30px 30px;
+    margin-top: -15px;
+    background: #333333;
+
+ .kurs2 input {
+    border-radius: 20px;
+    text-align: center;
+    width: 120px;
+    padding: 8px;
+    color: white;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    margin-left: 120px;
+    padding-top: 10px;
+ }
+ 
+ 
+ .rubl h3{
+    width: 440px;
+    height: 6px;
+    border: 2px solid   ;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    margin-top: -12px;
+    margin-left: 60px;
+ }
+ .rubl h6{
+    width: 100px;
+    height: 2px;
+    border: 2px solid white;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: -8px;
+ 
+ }
+ .rubl h4{
+    margin-left: 60px;
+    color:white;
+   
+ }
+
+}
+.content2{
+     display: flex;
+     justify-content: center;
+     gap: 5em;
+     background-color: rgb(0, 0, 0) ;
+     padding: 120px;
+     padding-left: 300px;
+
+
+    .surati2 img{
+        width: 530px;
+        height: 540px;
+    }
+    .text{
+        margin-top: 100px;
+    }
+    .text p{
+        width: 615px;
+        height: 160px;
+        color: white;
+    }
+}
+.content3{
+   display: flex;   
+   padding-left: 200px;
+   padding-top: 100px;
+   gap: 2em;
+   background-color: rgb(0, 0, 0) ;
+   padding-bottom: 100px;
+
+    .icon img{
+        width: 125px;
+        height: 125px;
+    }
+    .text2 h1{
+        font-size: 48px;
+        margin-top: 35px;
+        color: white;
+    }
+    .text2 p{
+        font-size: 16px;
+        width: 400px;
+        color: white;
+    }
+
+}
+.content4{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ background-color: rgb(0, 0, 0) ;
+ padding-left: 150px;
+ padding-bottom: 100px;
+
+
+ .border1 h1{
+ font-size: 36px;
+ color: white;
+ }
+ .border1 h2{
+    border: 2px solid  ;
+    width: 325px;
+    height: 80px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+
+ }
+ .border1 p{
+  width: 300px;
+  height: 88px;
+  color: white;
+ }
+ .border2 h1{
+    font-size: 36px;
+    color: white;
+   
+    }
+    .border2 h2{
+       border: 2px solid  ;
+       width: 325px;
+       height: 60px;
+       background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+     
+    }
+    .border2 p{
+     width: 300px;
+     height: 88px;
+     color: white;
+    }
+    .border3 h1{
+        font-size: 36px;
+        color: white;
+        }
+        .border3 h2{
+           border: 2px solid  ;
+           width: 325px;
+           height: 30px;
+           background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+           
+        }
+        .border3 p{
+         width: 300px;
+         height: 88px;
+         color: white;
+        }
+        .border4 h1{
+            font-size: 36px;
+            color: white;
+            }
+            .border4 h2{
+               border: 2px solid  ;
+               width: 325px;
+               height: 10px;
+               background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+               
+            }
+            .border4 p{
+             width: 300px;
+             height: 88px;
+             color: white;
+            }
+
+}
+.zagolovok{
+    text-align: center;
+    background-color:rgb(0, 0, 0)  ;
+    
+.text h1{
+    color: white;
+    font-size: 48px;
+
+}
+
+}
+.content5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+   gap: 3em;
+   padding-top: 120px;
+   background-color: rgb(0, 0, 0);
+     padding-bottom: 100px;
+
+    .slider1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .slider1 p{
+        width: 355px;
+        color: white;
+    }
+    .slider2, .slider3 {
+        @extend .slider1 
+    }
+    .slider1 h1{
+        color: white;
+    }
+   
+  
+
+}
+.content6 {
+background-color: rgb(0, 0, 0);
+padding-bottom: 150px;
+
+
+
+.brend,.text3{
+    display: flex;
+   
+    .text3{
+        margin-top: 50px;
+        color: white;
+    }
+
+}
+.brend{
+    margin-left: 250px;
+    padding-bottom: 20px;
+}
+.brend img{
+    width: 125px;
+    height: 125px;
+}
+.logo1 img{
+    width: 198px;
+    height: 93px;
+}
+.logo2,.logo3,.logo4,.logo5,.logo6,.logo7,.logo8{
+    @extend .logo1
+    
+}
+.logo1,.logo2,.logo3,.logo4,{
+    padding-left: 40px;
+}
+.logo5,.logo6,.logo7,.logo8{
+    padding-left: 30px;
+}
+.mainlogo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-left: 20px;
+}
+.mainlogo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+.zagolovok2{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding-left: 250px;
+    padding-bottom: 100px;
+ 
+ .footer img{
+    width: 125px;
+    height: 125px;
+ }
+ .text4 h1{
+    margin-top: 50px;
+ }
+
+}
+.content7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+     background-color: rgb(0, 0, 0);
+     padding-bottom: 100px;
+
+ .dima1 h1{
+    font-size: 48px;
+ }
+    .dima1 img{
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+    }
+    .dima1 input{
+        text-decoration: none;
+        border: 2px solid ;
+        border-radius: 20px;
+        width: 150px;
+        padding: 5px;
+         margin-left: 20px;
+         color: white;
+         background-color: rgb(0, 0, 0);
+       
+
+    }
+    .dima2 img{
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+    }
+    .dima2 input{
+        text-decoration: none;
+        border: 2px solid ;
+        border-radius: 20px;
+        width: 150px;
+        padding: 5px;
+         margin-left: 20px;
+         color: white;
+       background-color: rgb(0, 0, 0);
+       
+    }
+    .dima3 img{
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+    }
+    .dima3 input{
+        text-decoration: none;
+        border: 2px solid ;
+        border-radius: 20px;
+        width: 150px;
+        padding: 5px;
+         margin-left: 20px;
+         color: white;
+       background-color: rgb(0, 0, 0);
+
+    }
+}
+.zagolovok3{
+    background-color: rgb(0, 0, 0);
+    padding: 100px;
+    
+    .jumla{
+        text-align: center;
+        color: white;
+    }
+  
+    .jumla h1{
+        font-size: 48px;
+       
+    }
+    
+        
+    }
+
+.end1{
+ background-color: rgb(0, 0, 0);
+ padding-bottom: 200px;
+ padding-top: 70px;
+ padding-left: 500px;
+ 
+   #button1{
+        border: 2px solid ;
+        width: 400px;
+        border-radius: 20px;
+        background-color: lightgrey;
+        padding: 10px;
+       
+    }
+    #button2{
+       width: 130px;
+       padding: 10px;
+       margin-left: -130px;
+       border: 2px solid;
+       border-radius: 20px;
+      
+       background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    }
+}
+.end2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   gap: 2em;
+   position: relative;
+   top: -100px;
+  
+   background-color: rgb(0, 0, 0);
+    .icons1, .icons2, .icons3, .icons4{
+        width: 35px;
+        padding: 5px;
+        font-size: 36px;
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+        color: white;
+        
+              
+    }
+   
+
+}
